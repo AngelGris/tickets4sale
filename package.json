@@ -1,0 +1,28 @@
+{
+  "name": "tickets4sale",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-date-picker": "^6.8.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-table": "^6.7.6",
+    "reactstrap": "^5.0.0-beta"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.{js,jsx}", "!src/{Api,index,registerServiceWorker}.js"]
+  }
+}

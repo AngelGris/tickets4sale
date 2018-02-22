@@ -1,0 +1,11 @@
+.well {
+    margin: 0;
+}
+
+.react-date-picker__calendar {
+    z-index: 2;
+}
+
+.react-date-picker__clear-button {
+    display: none;
+}
