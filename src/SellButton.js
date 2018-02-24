@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 
-class SellButton extends Component {
-    render() {
-        const { onClick, show } = this.props
+function SellButton(props) {
+    const { onClick, show } = props
 
-        if (!show) {
-            return null
-        }
-
-        return (
-            <button className="btn" onClick={onClick}>Sell</button>
-        )
+    if (!show) {
+        return null
     }
+
+    return (
+        <button className="btn" onClick={onClick}>Sell</button>
+    )
 }
 
 SellButton.propTypes = {
